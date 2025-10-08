@@ -1,4 +1,3 @@
-# main.py
 from carga_palabras import cargar_palabras_limpias
 from wordle_funciones import (
     elegir_palabra,
@@ -17,9 +16,6 @@ def main():
 
     # 2️ Elegir palabra secreta
     palabra_secreta = elegir_palabra(palabras)
-
-    # (Descomenta para depurar)
-    # print(f"[DEBUG] Palabra secreta: {palabra_secreta}")
 
     intentos_max = 6
     intentos_realizados = 0
